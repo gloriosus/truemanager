@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+.auth-form {
+    width: 300px;
+    margin: 150px auto;
+}
+form {
+    font-family: Segoe UI;
+}
+legend {
+    font-size: 18pt;
+}
+input {
+    clear: both;
+    font-size: 14pt;
+    margin-top: 10px;
+}
+label {
+    clear: both;
+    font-size: 14pt;
+    display: block;
+    margin-top: 10px;
+}
+a {
+    font-family: Segoe UI;
+    font-size: 12pt;
+    color: black;
+}

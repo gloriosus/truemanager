@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1c81e5;
+}
+p {
+    font-family: Century Gothic;
+    font-size: 30pt;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    text-align: justify;
+}
+h1 {
+    font-family: Segoe UI;
+    font-size: 42pt;
+    font-weight: bold;
+    color: white;
+}
+h2 {
+    font-family: Segoe UI;
+    font-size: 28pt;
+    font-weight: bold;
+    color: white;
+}
+hr {
+    width: 100%;
+}
+a {
+    font-family: Segoe UI;
+    font-size: 21pt;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+table {
+    width: 100%;
+    border: 1px solid white;
+    font-family: Century Gothic;
+    font-size: 18pt;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+input {
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.4);
+	border:1px solid rgba(0, 0, 0, 0.2);
+	border-radius:5px;
+	padding:0 10px 0 10px;
+	height:40px;
+	font-family:Segoe UI;
+	font-weight:400;
+	font-size:21pt;
+	color:black;
+}
+form p {
+    font-size: 18pt;
+}
+label {
+    font-family: Century Gothic;
+    font-size: 18pt;
+    font-weight: 400;
+    color: white;
+}
+.active-link {
+    border-bottom: 5px solid white;
+}
+.wrapper {
+    width: 79%;
+    margin: 0 auto;
+}
+.header {
+    margin-top: 100px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-col1 {
+    float: left;
+    text-align: left;
+}
+.navigation-col2 {
+    float: left;
+    line-height: 70px;
+}
+.navigation-col2 a {
+    margin-right: 50px;
+}
+.navigation-col3 {
+    float: left;
+    text-align: right;
+}
+.content {
+    margin: 50px auto 150px auto;
+}
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    color: black;
+    font-family: Segoe UI;
+    font-size: 12pt;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.3);
+}
+.footer-row {
+    width: 79%;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.footer-col1 {
+    float: left;
+    width: 50%;
+}
+.footer-col2 {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+
+/* home page */
+
+.home-master {
+    margin: 150px auto;
+}
+.home-leftcol {
+    width: auto;
+    float: left;
+}
+.home-heading {
+    font-family: Segoe UI;
+    font-size: 42pt;
+    font-weight: bold;
+    color: white;
+}
+.home-text {
+    font-family: Century Gothic;
+    font-size: 30pt;
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+.home-buttons {
+    margin: 20px 0px 0px 0px;
+}
+.home-buttons a {
+    text-decoration: none;
+}
+.home-button-learn {
+    width: 300px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 40px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-family: Segoe UI;
+    font-size: 21pt;
+    font-weight: 600;
+    color: white;
+}
+.home-button-play {
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #52ac62;
+    text-align: center;
+    line-height: 80px;
+    font-family: Segoe UI;
+    font-size: 21pt;
+    font-weight: 600;
+    color: white;
+    margin-left: 320px;
+}
+.home-rightcol {
+    width: auto;
+    text-align: center;
+}
+.home-description {
+    width: 100%;
+    margin: 250px auto 0px auto;
+}
+.home-description p {
+    line-height: inherit;
+    font-family: Century Gothic;
+    font-size: 30pt;
+    font-weight: 400;
+    color: white;
+}
+.home-description img {
+    padding: 0px 0px 0px 0px;
+}
+
+/* game page */
+
+.game-left-col {
+    width: 680px;
+    float: left;
+}
+.game-block-statistics {
+    height: 470px;
+    border: 5px solid white;
+    margin: 10px 0 0 0;
+    padding: 0 30px 0 30px;
+}
+.game-mid-col {
+    width: 140px;
+    height: 470px;
+    float: left;
+}
+.game-right-col {
+    width: 680px;
+    float: left;
+}
+.game-block-play {
+    height: 470px;
+    border: 5px solid white;
+    padding: 0 30px 0 30px;
+    margin: 10px 0 0 0;
+}
+.game-block-play p {
+    text-align: left;
+}
+.game-button-rewards {
+    width: 100%;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 40px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-family: Segoe UI;
+    font-size: 21pt;
+    font-weight: 600;
+    color: white;
+}
+.game-button-play {
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #52ac62;
+    text-align: center;
+    line-height: 80px;
+    font-family: Segoe UI;
+    font-size: 21pt;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* game-rewards page */
+
+.rewards-unit {
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.rewards_unit_img_color {
+    width: 100px;
+    height: 100px;
+    background: url('http://truemanager.ru/img/reward.png');
+    float: left;
+}
+.rewards_unit_img_nocolor {
+    width: 100px;
+    height: 100px;
+    background: url('http://truemanager.ru/img/reward_nocolor.png');
+    float: left;
+}
+.rewards-unit-text {
+    float: left;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+
+/* leaders page */
+
+.leaders-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.leaders-navigation-left-col {
+    float: left;
+}
+.leaders-navigation-right-col {
+    float: left;
+}
+
+
+/* game-play page */
+
+.game-wrapper{
+	width:960px;
+	height:400px;
+	box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+.top{
+	width:100%;
+	height:100px;
+	/*background-color:LightYellow;*/
+	background-color:white;
+}
+.field{
+	width:800px;
+	height:300px;
+	/*background-color:Moccasin;*/
+	background-color:white;
+	float:left;
+	
+}
+.side{
+	width:160px;
+	height:300px;
+	/*background-color:Khaki;*/
+	background-color:white;
+	float:right;
+}
+.side select{
+	width:100px;
+	margin-top:20px;
+}
+.side form{
+	margin-left:50px;
+}
+.taskbar{
+	width:100px;
+	height:20px;
+	background-color:lightgrey;
+	margin-top:20px;
+}
+.progress{
+	width:0px;
+	height:100%;
+	background-color:green;
+}
+.counter{
+	font-family:Segoe UI;
+	font-size:24px;
+	font-weight:lighter;
+	display:block;
+	color:black;
+	white-space:nowrap;
+}
+.lead{
+	width:2px;
+	height:200px;
+	background-color:black;
+	position:absolute;
+	margin-left:0px;
+}
+.top-left{
+	float:left;
+}
+.top-middle{
+	float:left;
+	margin-left:300px;
+}
+.top-middle p{
+	font-family:Segoe UI;
+	font-size:24px;
+	font-weight:lighter;
+	color:black;
+	white-space:nowrap;
+}
+.top-right{
+	margin-left:800px;
+}
+.arrow{
+	width:1px;
+	height:40px;
+	background-color:red;
+	position:absolute;
+	margin-top:30px;
+}
+.button-game{
+	width:100px;
+	height:30px;
+	cursor:pointer;
+	background-color:green;
+	color:white;
+	font-family:Segoe UI;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+	line-height:30px;
+}
